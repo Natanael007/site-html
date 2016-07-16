@@ -1,0 +1,106 @@
+body{
+	background: #000;
+}
+#todo{
+background: url(imagem/img1.jpg);
+box-shadow:0 0 30px rgba(255,255,255,0.6);
+margin:0 auto;
+overflow:hidden;
+max-width:1800px;
+min-width:900px;	
+padding:1em;
+width:80%;
+}
+#todo #cabeca{
+height:260px;
+background: rgba(100,100,100,0.4);
+background: url(imagem/contatos.jpg);
+border:solid 5px;
+padding:1em;
+font-size: 30px;
+font-style:times ;
+background-image: no-repeat;
+
+}
+#todo #cabeca #logo{
+background: url(imagem/img2.jpg);
+background-position: center;
+background-size: 100px 100px;
+border: dotted 1px;
+float: right;
+height:100px;
+margin-right: 10px;
+width: 100px;
+display: inline;
+width:100px;
+border:solid 1px;
+border-radius:20px;
+border-color:black;
+position: absolute; 
+right: 300px; /* posiciona a 90px para a esquerda */ 
+top: 180px; /* posiciona a 70px para baixo */
+}
+#todo #Conteudo{
+overflow:hidden;
+width:60%;
+background:-webkit-linear-gradient(#ccc,rgba(255,255,255,0.1)1000%);
+padding:3em;border:3px outset;
+float:left;
+}
+#todo #Conteudoa{
+border:dashed 1px;
+width:45%;
+float:left;
+padding:1em;
+font-style: times;
+font-size: 25px;
+}
+#todo #Conteudob{
+border:dashed 1px;
+width:35%;
+padding: 1em;
+float:right;
+font-style: times;
+font-size: 25px;
+}
+#todo #menu{
+height:60px;
+}
+#menu #meumenu{
+list-style:none;
+text-align:right;
+text-decoration: none;
+}
+#menu #meumenu li{
+background: #eee;
+border-radius:1em 1em 0 0;
+border:solid;
+display:inline-block;
+margin-left: -5.0px;
+padding:0.5em;
+vertical-align:top;
+text-decoration: none;
+}
+#todo #publicidade{
+float:right;
+width:25%;
+height:250px;
+border:3px outset;
+background:-webkit-linear-gradient(#ccc,rgba(0,0,0,0)350%);
+font-size: 25px;
+font-style:italic;
+}
+
+
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	font-size: 16px;
+	color:red;
+	font-weight: bold;
+}
